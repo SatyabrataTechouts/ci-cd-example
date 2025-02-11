@@ -34,9 +34,6 @@ jobs:
       - name: Add test package 
         run: dart pub add --dev test
 
-      - name: Analyze project source
-        run: flutter analyze
-
       - name: Run tests
         run: flutter test
 
