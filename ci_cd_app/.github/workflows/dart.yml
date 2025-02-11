@@ -5,7 +5,8 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "master" ]
-
+permission:
+  contents:write
 jobs:
   build:
     runs-on: ubuntu-latest
