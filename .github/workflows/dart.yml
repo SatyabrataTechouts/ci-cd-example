@@ -31,7 +31,7 @@ jobs:
       - name: Install dependencies
         run: dart pub get
 
-     - name: Add test package (if missing)
+      - name: Add test package 
         run: dart pub add --dev test
 
       - name: Analyze project source
